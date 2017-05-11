@@ -1,14 +1,13 @@
 body{
    font-family: verdana;
    text-align: center;
-   color: purple;
-   background: url("fondo.jpeg");
-   object-fit: cover;
+   color: black;
    /*background-img:url("fondo.jpeg");*/
-   
 }
 
+h1{
+  font-size: 50%;
+}
 img{
-   width: 100%;
-   /*object-fit: cover;*/
+  width: 100%;
 }
