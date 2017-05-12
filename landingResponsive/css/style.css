@@ -1,15 +1,53 @@
 /*Estilos generales*/
 body{
   font-family: 'Pacifico', cursive;
+  display: flex;
+  flex-direction: column;
 }
+
 .contenedor{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
 }
 
+.col{
+  flex-direction: column;
+}
+.noEspacio{
+  flex-wrap: nowrap;
+}
+.algo{
+  justify-content:space-between;
+}
+h2{
+  display: flex;
+  flex-direction: row;
+  font-size: 2em;
+}
+
+img{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
 .centro{
   justify-content: center;
+}
+
+.izq{
+  justify-content: flex-start;
+}
+
+.der{
+  justify-content: flex-end;
+}
+
+.alinear{
+  position: absolute;
+  margin-top: 20%;
+  margin-left: 50%;
 }
 /*Estilos menu*/
 ul{
@@ -32,12 +70,32 @@ a{
 
 a:hover{
   color: black;
+  background-color: #90A4AE;
 }
 /*Portada*/
 
 #portada{
-  width: 100%;
-  height: 500px;
-  background-image: url("../img/image.png");
-  background-size: cover;
+  /*margin-top: -5%;*/
+}
+/*Sección información*/
+.figura{
+  display: inline-flex;
+  width: 50%;
+}
+p{
+  width: 40%;
+  margin: 3%;
+  line-height: 1.3;
+  text-align: justify;
+}
+/*Formulario*/
+form{
+  width: 40%;
+  margin-left: 20%;
+  margin-bottom: 5%;
+}
+/*Footer*/
+footer{
+  background-color: gray;
+  padding: 2%;
 }
