@@ -8,11 +8,13 @@ body{
 .contenedor{
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
+  /*flex-wrap: wrap;*/
 }
 
 .col{
+  display: flex;
   flex-direction: column;
+  width: 100%;
 }
 .noEspacio{
   flex-wrap: nowrap;
@@ -49,6 +51,14 @@ img{
   margin-top: 20%;
   margin-left: 50%;
 }
+
+.mL-5{
+  margin-left: 5%;
+}
+
+.mT-5{
+  margin-top: 5%;
+}
 /*Estilos menu*/
 ul{
   text-align: center;
@@ -76,11 +86,12 @@ a:hover{
 
 #portada{
   /*margin-top: -5%;*/
+  height: 600px;
 }
 /*Sección información*/
 .figura{
-  display: inline-flex;
-  width: 50%;
+  /*display: inline-flex;*/
+  width: 40%;
 }
 p{
   width: 40%;
