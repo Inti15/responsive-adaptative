@@ -3,6 +3,7 @@ body{
   font-family: 'Pacifico', cursive;
   display: flex;
   flex-direction: column;
+  background-color: #2EA1B8;
 }
 
 .contenedor{
@@ -70,10 +71,12 @@ img{
 ul{
   text-align: center;
   background-color: #1A936F;
+  border-top: 3px solid black;
+  border-bottom: 3px solid black;
 }
 
 li{
-  margin: 0 3%;
+  margin: 0 1%;
   padding: 20px;
   list-style: none;
 }
@@ -81,8 +84,9 @@ li{
 a{
   padding: 10px;
   text-decoration: none;
-  background-color: #90A4AE;
-  border-radius: 10%;
+  color: #9DDBAA;
+  background-color: #37474F;
+  border-radius: 5%;
 }
 
 a:hover{
@@ -98,11 +102,13 @@ a:hover{
 /*Portada*/
 #portada{
   height: 600px;
+  border-bottom: 3px solid black;
 }
 /*Sección información*/
 #informacion{
-  margin-bottom: 5%;
+  padding-bottom: 5%;
   background-color: #88D498;
+  border-bottom: 3px solid black;
 }
 .figura{
   width: 40%;
@@ -116,7 +122,8 @@ p{
 /*Video*/
 .secVideo{
   color: white;
-  border: 3px solid black;
+  border: none;
+  border-bottom: 3px solid black;
   background-color: #114B5F;
 }
 #video{
@@ -124,10 +131,10 @@ p{
   height: 300px;
   margin-left: 27%;
   margin-bottom: 5%;
+  padding-bottom: 5%;
 }
 /*Formulario*/
 #datos{
-  margin-top: 3%;
   color: white;
   background-color: #6A737C;
 }
@@ -153,4 +160,6 @@ button{
 footer{
   background-color: #1A936F;
   padding: 2%;
+  border-top: 3px solid black;
+  border-bottom: 3px solid black;
 }
