@@ -1,6 +1,9 @@
 /* V E R S I Ó N   M O B I L E*/
 
 @media (min-width:320px) and (max-width:480px){ /*Media que oculta la sección de infomación*/
+  ul, footer{
+    background-color: #9DDBAA;
+  }
   li{
     display: none;
   }
@@ -15,6 +18,16 @@
 
   #video{
     margin-left: 15%;
+  }
+  .secVideo{
+    background-color: #6A737C;
+  }
+  #datos{
+    background-color: #114B5F;
+  }
+
+  form{
+    background-color: #1A936F;
   }
 
 }
