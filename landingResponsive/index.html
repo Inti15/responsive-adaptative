@@ -5,31 +5,35 @@
     <meta name="viewport" content="width=device-width">
     <title>Landing responsive</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
     <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
   </head>
   <body>
     <header>
       <nav >
-        <ul class="contenedor centro">
-          <li><a href="">Opción 1</a></li>
-          <li><a href="">Opción 2</a></li>
-          <li><a href="">Opción 3</a></li>
-          <li><a href="">Opción 4</a></li>
+        <ul class="contenedor der">
+          <li><a href="">¿Qué es?</a></li>
+          <li><a href="">Tipos</a></li>
+          <li><a href="">Herramientas de desarrollo</a></li>
+          <li><a href="">Aplicaciones</a></li>
+          <i id="menu" class="material-icons md-52">menu</i>
         </ul>
       </nav>
     </header>
       <!-- Sección portada  -->
       <section class="">
-        <h2 class="alinear"> Text</h2>
-        <img src="img/image.png" id="portada">
+        <h2 class="alinear"> Realidad Aumentada</h2>
+        <img src="img/portada.jpg" id="portada">
       </section>
       <!-- Sección de información -->
       <section id="informacion">
-        <h2 class="centro"> Heading </h2>
+        <h2 class="centro azul"> Tipos </h2>
         <section class="contenedor mL-5">
           <!-- Imágen  -->
           <section class=" izq figura mT-5 mL-5 ">
-            <img src="img/image.png" class="">
+            <img src="img/dinosaurio.jpg" class="">
           </section>
           <p class="der mL-5 mT-7">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -53,24 +57,25 @@
           </p>
          <!-- Imágen -->
          <section class="figura der mT-5 ">
-           <img src="img/image.png" class="">
+           <img src="img/aplicaciones.jpg" class="">
          </section>
         </section>
       </section>
       <!-- Sección video -->
       <section class="secVideo">
-        <h2 class="centro"> Heading </h2>
+        <h2 class="centro"> Top 5 </h2>
         <section id="video" class="contenedor">
-          <img src="img/video.png">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/GtL1dlcGC80" ></iframe>
+          <!-- <img src="img/video.png"> -->
         </section>
       </section>
       <!--Sección formulario  -->
-      <section class="contenedor col">
-        <h2 class="centro "> Heading </h2>
+      <section id="datos" class="contenedor col">
+        <h2 class="centro "> Datos </h2>
         <section class="contenedor centro">
           <form class="contenedor" action="index.html">
-            <input type="text" name="" value="" placeholder="Nombre">
-            <input type="text" name="" value="" placeholder="Email addres">
+            <input type="text" placeholder="Nombre">
+            <input type="text" value="" placeholder="Email addres">
             <textarea name="name" rows="8" cols="46"> Dejános un comentario</textarea>
             <button type="button" name="button" class=""> Listo! </button>
           </form>
@@ -78,7 +83,7 @@
       </section>
       <!-- Footer -->
       <footer class="contenedor centro algo">
-        <span class=""> © Papitas Ninja </span>
+        <span class=""> © Papitas Ninja: 🌺 Inti 🌺 </span>
       </footer>
   </body>
 </html>

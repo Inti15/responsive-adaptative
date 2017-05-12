@@ -1,0 +1,20 @@
+/* V E R S I Ó N   M O B I L E*/
+
+@media (min-width:320px) and (max-width:480px){ /*Media que oculta la sección de infomación*/
+  li{
+    display: none;
+  }
+
+  #menu{
+    display: block;
+  }
+
+  #informacion{
+    display: none;
+  }
+
+  #video{
+    margin-left: 15%;
+  }
+
+}
